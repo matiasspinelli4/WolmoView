@@ -16,5 +16,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func goToWolox(_ sender: Any) {
+        
+        let woloxController = WolmoViewController(nibName: "WolmoViewController", bundle: nil)
+        self.navigationController?.pushViewController(woloxController, animated: true)
+    }
 }
 

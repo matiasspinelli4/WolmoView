@@ -14,6 +14,8 @@
 		003F6901230CB02800122E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F68FF230CB02800122E3E /* LaunchScreen.storyboard */; };
 		003F690C230CB02800122E3E /* WolmoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F690B230CB02800122E3E /* WolmoViewTests.swift */; };
 		003F6917230CB02800122E3E /* WolmoViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F6916230CB02800122E3E /* WolmoViewUITests.swift */; };
+		003F6926230CB05B00122E3E /* WolmoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F6924230CB05B00122E3E /* WolmoViewController.swift */; };
+		003F6927230CB05B00122E3E /* WolmoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003F6925230CB05B00122E3E /* WolmoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		003F6912230CB02800122E3E /* WolmoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WolmoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		003F6916230CB02800122E3E /* WolmoViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolmoViewUITests.swift; sourceTree = "<group>"; };
 		003F6918230CB02800122E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003F6924230CB05B00122E3E /* WolmoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolmoViewController.swift; sourceTree = "<group>"; };
+		003F6925230CB05B00122E3E /* WolmoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WolmoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 				003F68F8230CB02700122E3E /* ViewController.swift */,
 				003F68FA230CB02700122E3E /* Main.storyboard */,
 				003F68FD230CB02800122E3E /* Assets.xcassets */,
+				003F6928230CB06100122E3E /* WolmoViewController */,
 				003F68FF230CB02800122E3E /* LaunchScreen.storyboard */,
 				003F6902230CB02800122E3E /* Info.plist */,
 			);
@@ -123,6 +128,15 @@
 				003F6918230CB02800122E3E /* Info.plist */,
 			);
 			path = WolmoViewUITests;
+			sourceTree = "<group>";
+		};
+		003F6928230CB06100122E3E /* WolmoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				003F6924230CB05B00122E3E /* WolmoViewController.swift */,
+				003F6925230CB05B00122E3E /* WolmoViewController.xib */,
+			);
+			path = WolmoViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				003F6901230CB02800122E3E /* LaunchScreen.storyboard in Resources */,
+				003F6927230CB05B00122E3E /* WolmoViewController.xib in Resources */,
 				003F68FE230CB02800122E3E /* Assets.xcassets in Resources */,
 				003F68FC230CB02700122E3E /* Main.storyboard in Resources */,
 			);
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003F6926230CB05B00122E3E /* WolmoViewController.swift in Sources */,
 				003F68F9230CB02700122E3E /* ViewController.swift in Sources */,
 				003F68F7230CB02700122E3E /* AppDelegate.swift in Sources */,
 			);
