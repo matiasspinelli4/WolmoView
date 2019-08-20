@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003F68F7230CB02700122E3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F68F6230CB02700122E3E /* AppDelegate.swift */; };
+		003F68F9230CB02700122E3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F68F8230CB02700122E3E /* ViewController.swift */; };
+		003F68FC230CB02700122E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F68FA230CB02700122E3E /* Main.storyboard */; };
+		003F68FE230CB02800122E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003F68FD230CB02800122E3E /* Assets.xcassets */; };
+		003F6901230CB02800122E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F68FF230CB02800122E3E /* LaunchScreen.storyboard */; };
+		003F690C230CB02800122E3E /* WolmoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F690B230CB02800122E3E /* WolmoViewTests.swift */; };
+		003F6917230CB02800122E3E /* WolmoViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F6916230CB02800122E3E /* WolmoViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003F6908230CB02800122E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003F68EB230CB02700122E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003F68F2230CB02700122E3E;
+			remoteInfo = WolmoView;
+		};
+		003F6913230CB02800122E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003F68EB230CB02700122E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003F68F2230CB02700122E3E;
+			remoteInfo = WolmoView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F68F3230CB02700122E3E /* WolmoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WolmoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		003F68F6230CB02700122E3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		003F68F8230CB02700122E3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		003F68FB230CB02700122E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		003F68FD230CB02800122E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		003F6900230CB02800122E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		003F6902230CB02800122E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003F6907230CB02800122E3E /* WolmoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WolmoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003F690B230CB02800122E3E /* WolmoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolmoViewTests.swift; sourceTree = "<group>"; };
+		003F690D230CB02800122E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003F6912230CB02800122E3E /* WolmoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WolmoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003F6916230CB02800122E3E /* WolmoViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolmoViewUITests.swift; sourceTree = "<group>"; };
+		003F6918230CB02800122E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003F68F0230CB02700122E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F6904230CB02800122E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F690F230CB02800122E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003F68EA230CB02700122E3E = {
+			isa = PBXGroup;
+			children = (
+				003F68F5230CB02700122E3E /* WolmoView */,
+				003F690A230CB02800122E3E /* WolmoViewTests */,
+				003F6915230CB02800122E3E /* WolmoViewUITests */,
+				003F68F4230CB02700122E3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		003F68F4230CB02700122E3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003F68F3230CB02700122E3E /* WolmoView.app */,
+				003F6907230CB02800122E3E /* WolmoViewTests.xctest */,
+				003F6912230CB02800122E3E /* WolmoViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003F68F5230CB02700122E3E /* WolmoView */ = {
+			isa = PBXGroup;
+			children = (
+				003F68F6230CB02700122E3E /* AppDelegate.swift */,
+				003F68F8230CB02700122E3E /* ViewController.swift */,
+				003F68FA230CB02700122E3E /* Main.storyboard */,
+				003F68FD230CB02800122E3E /* Assets.xcassets */,
+				003F68FF230CB02800122E3E /* LaunchScreen.storyboard */,
+				003F6902230CB02800122E3E /* Info.plist */,
+			);
+			path = WolmoView;
+			sourceTree = "<group>";
+		};
+		003F690A230CB02800122E3E /* WolmoViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				003F690B230CB02800122E3E /* WolmoViewTests.swift */,
+				003F690D230CB02800122E3E /* Info.plist */,
+			);
+			path = WolmoViewTests;
+			sourceTree = "<group>";
+		};
+		003F6915230CB02800122E3E /* WolmoViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				003F6916230CB02800122E3E /* WolmoViewUITests.swift */,
+				003F6918230CB02800122E3E /* Info.plist */,
+			);
+			path = WolmoViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003F68F2230CB02700122E3E /* WolmoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003F691B230CB02800122E3E /* Build configuration list for PBXNativeTarget "WolmoView" */;
+			buildPhases = (
+				003F68EF230CB02700122E3E /* Sources */,
+				003F68F0230CB02700122E3E /* Frameworks */,
+				003F68F1230CB02700122E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WolmoView;
+			productName = WolmoView;
+			productReference = 003F68F3230CB02700122E3E /* WolmoView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		003F6906230CB02800122E3E /* WolmoViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003F691E230CB02800122E3E /* Build configuration list for PBXNativeTarget "WolmoViewTests" */;
+			buildPhases = (
+				003F6903230CB02800122E3E /* Sources */,
+				003F6904230CB02800122E3E /* Frameworks */,
+				003F6905230CB02800122E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003F6909230CB02800122E3E /* PBXTargetDependency */,
+			);
+			name = WolmoViewTests;
+			productName = WolmoViewTests;
+			productReference = 003F6907230CB02800122E3E /* WolmoViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		003F6911230CB02800122E3E /* WolmoViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003F6921230CB02800122E3E /* Build configuration list for PBXNativeTarget "WolmoViewUITests" */;
+			buildPhases = (
+				003F690E230CB02800122E3E /* Sources */,
+				003F690F230CB02800122E3E /* Frameworks */,
+				003F6910230CB02800122E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003F6914230CB02800122E3E /* PBXTargetDependency */,
+			);
+			name = WolmoViewUITests;
+			productName = WolmoViewUITests;
+			productReference = 003F6912230CB02800122E3E /* WolmoViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003F68EB230CB02700122E3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Matías Spinelli";
+				TargetAttributes = {
+					003F68F2230CB02700122E3E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					003F6906230CB02800122E3E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 003F68F2230CB02700122E3E;
+					};
+					003F6911230CB02800122E3E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 003F68F2230CB02700122E3E;
+					};
+				};
+			};
+			buildConfigurationList = 003F68EE230CB02700122E3E /* Build configuration list for PBXProject "WolmoView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 003F68EA230CB02700122E3E;
+			productRefGroup = 003F68F4230CB02700122E3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003F68F2230CB02700122E3E /* WolmoView */,
+				003F6906230CB02800122E3E /* WolmoViewTests */,
+				003F6911230CB02800122E3E /* WolmoViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003F68F1230CB02700122E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F6901230CB02800122E3E /* LaunchScreen.storyboard in Resources */,
+				003F68FE230CB02800122E3E /* Assets.xcassets in Resources */,
+				003F68FC230CB02700122E3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F6905230CB02800122E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F6910230CB02800122E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003F68EF230CB02700122E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F68F9230CB02700122E3E /* ViewController.swift in Sources */,
+				003F68F7230CB02700122E3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F6903230CB02800122E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F690C230CB02800122E3E /* WolmoViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F690E230CB02800122E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F6917230CB02800122E3E /* WolmoViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003F6909230CB02800122E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003F68F2230CB02700122E3E /* WolmoView */;
+			targetProxy = 003F6908230CB02800122E3E /* PBXContainerItemProxy */;
+		};
+		003F6914230CB02800122E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003F68F2230CB02700122E3E /* WolmoView */;
+			targetProxy = 003F6913230CB02800122E3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		003F68FA230CB02700122E3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003F68FB230CB02700122E3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		003F68FF230CB02800122E3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003F6900230CB02800122E3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		003F6919230CB02800122E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		003F691A230CB02800122E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		003F691C230CB02800122E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WolmoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matiasspinelli4.WolmoView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		003F691D230CB02800122E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WolmoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matiasspinelli4.WolmoView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		003F691F230CB02800122E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WolmoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matiasspinelli4.WolmoViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WolmoView.app/WolmoView";
+			};
+			name = Debug;
+		};
+		003F6920230CB02800122E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WolmoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matiasspinelli4.WolmoViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WolmoView.app/WolmoView";
+			};
+			name = Release;
+		};
+		003F6922230CB02800122E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WolmoViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matiasspinelli4.WolmoViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WolmoView;
+			};
+			name = Debug;
+		};
+		003F6923230CB02800122E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WolmoViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matiasspinelli4.WolmoViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WolmoView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003F68EE230CB02700122E3E /* Build configuration list for PBXProject "WolmoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F6919230CB02800122E3E /* Debug */,
+				003F691A230CB02800122E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003F691B230CB02800122E3E /* Build configuration list for PBXNativeTarget "WolmoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F691C230CB02800122E3E /* Debug */,
+				003F691D230CB02800122E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003F691E230CB02800122E3E /* Build configuration list for PBXNativeTarget "WolmoViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F691F230CB02800122E3E /* Debug */,
+				003F6920230CB02800122E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003F6921230CB02800122E3E /* Build configuration list for PBXNativeTarget "WolmoViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F6922230CB02800122E3E /* Debug */,
+				003F6923230CB02800122E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 003F68EB230CB02700122E3E /* Project object */;
+}
