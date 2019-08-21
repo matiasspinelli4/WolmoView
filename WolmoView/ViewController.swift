@@ -22,4 +22,3 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(woloxController, animated: true)
     }
 }
-

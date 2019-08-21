@@ -10,9 +10,18 @@ import UIKit
 
 public class WolmoViewController: UIViewController {
 
+    @IBOutlet weak var wolmoImage: UIImageView!
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
 
+        wolmoImage.image = UIImage(named: "wolox")
     }
 
+}
+
+extension Bundle {
+    public static var wolmoViewBundle: Bundle {
+        return Bundle(for: WolmoViewController.self)
+    }
 }
