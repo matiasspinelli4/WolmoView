@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WolmoView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "WolmoView."
   spec.description  = "A simple view from Wolox"
   spec.homepage     = "https://github.com/matiasspinelli4/WolmoView"
