@@ -15,7 +15,7 @@ public class WolmoViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
 
-        wolmoImage.image = UIImage(named: "wolox")
+        wolmoImage.image = #imageLiteral(resourceName: "wolox")
     }
 
 }
